@@ -1,0 +1,57 @@
+html,
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(235, 193, 6) 0%, rgba(236, 233, 43, 0.568) 52%, rgb(233, 230, 64) 100%);
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 50px;
+    color: blueviolet;
+}
+
+
+
+.contenedor {
+    max-width: 1065px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.card {
+    box-shadow: 1px 1px 5px rgba(0,0,0,.2);
+}
+
+.card-body {
+    display: flex;
+}
+
+.card-img {
+    margin:30px;
+}
+
+.card-img img{
+    max-width: 200px;
+    border-radius: 100px;
+}
+
+.card-text {
+    margin-top: 50px;
+} 
